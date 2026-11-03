@@ -242,7 +242,7 @@ pub fn show(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
             ui.add_space(20.0);
             widgets::section_title(ui, tl!("Privacy"));
             ui.label(
-                egui::RichText::new(tl!("AffaPdf works offline. No telemetry, no account, and no cloud processing unless you add a provider."))
+                egui::RichText::new(tl!("AffaPdf runs 100% locally and privately. Your documents are never uploaded to any external server."))
                     .color(t.text_muted),
             );
         });
